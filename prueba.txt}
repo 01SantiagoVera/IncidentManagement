@@ -1,0 +1,98 @@
+Prueba Técnica para Desarrollador de 
+Software .NET 
+Información General 
+●  Modalidad: Remota vía correo electrónico 
+●  Entrega: Archivo comprimido en formato .ZIP con el código fuente. 
+Proyecto Práctico: Sistema de Gestión de Incidencias 
+Contexto 
+Uno de nuestros clientes necesita un sistema simple pero funcional para gestionar las 
+incidencias técnicas reportadas por sus usuarios. El sistema debe permitir crear, consultar y 
+actualizar incidencias, así como asignarlas a técnicos y cambiar su estado. 
+Requerimientos Funcionales 
+Desarrolle una aplicación web utilizando ASP.NET MVC 5 (.NET Framework 4.8) que 
+incluya: 
+1.  Gestión de Incidencias: 
+○  Listado de incidencias con paginación 
+○  Filtros por: Estado, Prioridad, Fecha y Técnico asignado 
+○  Creación de nuevas incidencias 
+○  Edición de incidencias existentes 
+○  Vista detalle de una incidencia 
+2.  Campos de una Incidencia: 
+○  ID (autogenerado) 
+○  Título (obligatorio) 
+○  Descripción (obligatorio) 
+○  Estado (Abierta, En Progreso, Resuelta, Cerrada) 
+○  Prioridad (Baja, Media, Alta, Crítica) 
+○  Fecha de creación (automática) 
+○  Fecha de última actualización (automática) 
+○  Usuario que reporta (seleccionable de una lista) 
+○  Técnico asignado (seleccionable de una lista) 
+○  Comentarios (debe permitir añadir múltiples comentarios a una incidencia) 
+3.  Implementaciones Técnicas Requeridas: 
+○  Al menos una operación con AJAX (sugerencia: agregar comentarios sin 
+recargar la página) 
+○  Validaciones tanto del lado del cliente como del servidor 
+○  Implementación de patrones Repository y Dependency Injection 
+○  Uso de procedimientos almacenados para al menos una operación compleja 
+○  Un reporte que muestre estadísticas simples (ej: incidencias por estado, 
+prioridad) 
+Requerimientos Técnicos 
+1.  Tecnologías a utilizar: 
+○  ASP.NET MVC 5 (.NET Framework 4.8) 
+○  Entity Framework 6 (enfoque Code First o Database First, a su elección) 
+○  SQL Server (Express o LocalDB) 
+○  JavaScript/jQuery para operaciones del lado del cliente 
+○  Bootstrap para la interfaz de usuario 
+2.  Estructura del Proyecto: 
+○  Arquitectura en capas (presentación, servicios, acceso a datos) 
+○  Separación de responsabilidades 
+○  Uso de ViewModels cuando sea apropiado 
+3.  Características que valoraremos: 
+○  Código limpio y bien organizado 
+○  Comentarios apropiados 
+○  Manejo de excepciones 
+○  Logs de operaciones importantes 
+Entregables 
+1.  Código fuente completo que incluya: 
+○  Solución y proyectos de Visual Studio 
+○  Scripts SQL necesarios (si aplica) 
+○  Archivos de migración de Entity Framework (si usa Code First) 
+2.  Archivo README.md con: 
+○  Instrucciones detalladas de instalación y ejecución 
+○  Explicación de la estructura del proyecto 
+○  Descripción de patrones y prácticas implementadas 
+○  Cualquier información adicional relevante 
+○  Credenciales para probar la aplicación (si aplica) 
+3.  Opcional pero valorado: 
+○  Diagrama de la base de datos 
+○  Capturas de pantalla de la aplicación funcionando 
+Consejos para los candidatos 
+●  Enfóquese en que el código sea limpio y la aplicación funcione correctamente antes 
+de agregar características adicionales. 
+●  No es necesario implementar autenticación, pero si lo hace será valorado 
+positivamente. 
+●  Demuestre su conocimiento de buenas prácticas y patrones. 
+●  La interfaz de usuario no necesita ser muy elaborada, pero debe ser funcional e 
+intuitiva. 
+●  Si no puede completar todos los requerimientos, entregue lo que tenga e indique qué 
+faltó y cómo lo habría implementado. 
+Criterios de Evaluación 
+Evaluaremos su prueba en base a: 
+1.  Funcionalidad (40%): 
+○  Implementación completa de los requerimientos 
+○  Ausencia de errores 
+○  Flujo correcto de la aplicación 
+2.  Calidad del código (30%): 
+○  Estructura y organización 
+○  Patrones de diseño utilizados 
+○  Manejo de errores 
+○  Convenciones de nomenclatura 
+3.  Conocimientos técnicos (20%): 
+○  Uso apropiado de Entity Framework 
+○  Implementación de AJAX 
+○  Uso correcto de SQL y procedimientos almacenados 
+○  Validaciones adecuadas 
+4.  Valor agregado (10%): 
+○  Características adicionales relevantes 
+○  Documentación clara 
+○  UX/UI intuitiva
