@@ -1,0 +1,78 @@
+# Archivos de compilación
+bin/
+obj/
+Debug/
+Release/
+
+# Archivos de Visual Studio
+.vs/
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Archivos de Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Archivos de ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Archivos de NuGet
+*.nupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+
+# Archivos de base de datos
+*.mdf
+*.ldf
+*.ndf
+*.db
+
+# Archivos de caché
+*.cache
+*.dll
+*.pdb
+*.exe
+
+# Archivos de logs
+*.log
+logs/
+Log/
+
+# Archivos temporales
+*.tmp
+*.temp
+*.swp
+*~
+
+# Archivos de configuración local
+*.local
+*.local.config
+*.local.settings
+
+# Archivos de IIS
+*.pubxml
+*.publishsettings
+*.pubxml.user
+
+# Archivos de compilación de TypeScript
+*.js.map
+*.tsbuildinfo
+
+# Archivos de compilación de Sass
+*.css.map
+
+# Archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db 
+.fake
